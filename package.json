@@ -1,0 +1,38 @@
+{
+  "name": "autoyt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.14.4",
+    "@sanity/client": "^6.4.5",
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/vision": "^3.15.1",
+    "framer-motion": "^10.15.1",
+    "next": "13.4.13",
+    "next-sanity": "^5.2.6",
+    "next-sanity-image": "^6.1.0",
+    "react": "18.2.0",
+    "react-alice-carousel": "^2.7.1",
+    "react-countup": "^6.4.2",
+    "react-dom": "18.2.0",
+    "react-responsive": "^9.0.2",
+    "sanity": "^3.15.1",
+    "styled-components": "5.2",
+    "video-react": "^0.16.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.10",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
+  }
+}
