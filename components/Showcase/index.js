@@ -37,7 +37,10 @@ const Showcase = ({showcase}) => {
                         duration: 1,
                     }}
                     className="group mt-[4rem] lg:mt-[1.8rem] flex gap-[3rem]">
+                        <Link href="/get-started">
                         <PrimaryButton text="Get Started" />
+                        </Link>
+ 
                         {/* <ButtonInverted text="AI Video" /> */}
                     </motion.div>
                 </div>
