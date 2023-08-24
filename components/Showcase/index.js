@@ -36,11 +36,12 @@ const Showcase = ({showcase}) => {
                     transition={{
                         duration: 1,
                     }}
-                    className="group mt-[4rem] lg:mt-[1.8rem] flex gap-[3rem]">
+                    className="group mt-[4rem] lg:mt-[1.8rem]">
                         <Link href="/get-started">
                         <PrimaryButton text="Get Started" />
                         </Link>
- 
+                            <p className='text-[#5C5C5C] mt-[1rem] ml-[2.5rem] regular text-[1.2rem]'>No Credit Card Required</p>
+
                         {/* <ButtonInverted text="AI Video" /> */}
                     </motion.div>
                 </div>
